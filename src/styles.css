@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: .7em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #BA0F22;
+    outline: 1px solid slategrey
+}
+
+@media screen and (max-width: 600px) {
+    body::-webkit-scrollbar {
+        width: .15em;
+        background-color: #BA0F22;
+    }
+}
+
+.o-hidden {
+    overflow: hidden;
+}
