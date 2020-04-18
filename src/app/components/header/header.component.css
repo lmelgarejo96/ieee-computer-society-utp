@@ -1,5 +1,5 @@
 header.bg-header {
-    background-image: linear-gradient(rgba(22, 123, 177, 0.4), rgba(22, 123, 177, 0.4)), url(../../../assets/img/bg2.jpeg);
+    background-image: linear-gradient(rgba(0, 98, 155, 0.6), rgba(0, 98, 155, 0.6)), url(../../../assets/img/bg2.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,8 +27,8 @@ header>.header-container>.title-header {
     font-style: normal;
     font-weight: bold;
     text-align: center;
-    font-size: 65px;
-    text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;
+    font-size: /*65px*/calc(2.6em + 2.6vw);
+    /*text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;*/
     padding: 10px;
 }
 
@@ -36,8 +36,8 @@ header>.header-container>.header-description {
     font-family: 'Roboto', Arial;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;
+    font-size: calc(1em + 1vw);
+    /*text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;*/
     max-width: 780px;
     text-align: center;
     padding: 10px;
@@ -45,21 +45,21 @@ header>.header-container>.header-description {
 
 header>.header-container>button {
     background: #000;
-    border: 2px solid #000;
+    border: none;
     color: #fff;
-    font-size: 30px;
-    font-family: 'Roboto';
-    font-weight: bold;
-    padding: 15px 90px;
-    border-radius: 20px;
+    font-size: calc(0.7em + 0.7vw);;
+    font-family: 'Barlow';
+    font-weight: bold;/*el border es mucho y no se escala si le pongo numero*/
+    padding: 12px 80px;
+    border-radius: 5px;
     cursor: pointer;
-    margin-top: 45px;
+    margin-top: 10px;
     outline: none;
 }
 
-header>.header-container>button:hover {
+/*header>.header-container>button:hover {
     border: 2px solid #f4f4f4;
-}
+}*/
 
 .animateUp2s {
     animation-name: animateUp;
@@ -71,18 +71,18 @@ header>.header-container>button:hover {
     animation-duration: 1s;
 }
 
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
     header>.header-container>.title-header {
         font-size: 55px;
     }
-    header>.header-container>button {
-        padding: 10px 30px;
-        margin-top: 15px;
+    /*header>.header-container>button {
+        padding: 10px 40x;
+        margin-top: 10px;
     }
     header>.header-container>.header-description {
         font-size: 20px;
     }
-}
+}*/
 
 @keyframes animateUp {
     from {
