@@ -72,16 +72,16 @@ header>.header-container>button {
 }
 
 @media screen and (max-width: 400px) {
-    header>.header-container>.title-header {
+    /*header>.header-container>.title-header {
         font-size: 55px;
+    }*/
+    /*header>.header-container>button {
+        padding: 10px 40x;
+        margin-top: 10px;
     }
-    header>.header-container>button {
-        padding: 10px 30px;
-        margin-top: 15px;
-    }
-    header>.header-container>.header-description {
+    /*header>.header-container>.header-description {
         font-size: 20px;
-    }
+    }*/
 }
 
 @keyframes animateUp {
