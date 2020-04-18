@@ -93,7 +93,7 @@
     
     .navbar-container>nav>ul>li.link-active::before,
     .navbar-container>nav>ul>li.link-active::after {
-        background: #167BB1;
+        background: #00629b;
         width: 100%;
         left: 0;
     }
@@ -115,7 +115,7 @@
     }
     
     #btn-open svg {
-        fill: #2c3e50;
+        fill: black;
     }
     
     #btn-close svg {
@@ -165,7 +165,7 @@
             color: #fff;
             font-size: 30px;
             font-weight: bold;
-            text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;
+            /*text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;*/
         }
         .link-active {
             border-bottom: 4px solid #167BB1;
