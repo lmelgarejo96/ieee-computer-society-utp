@@ -1,0 +1,189 @@
+.directiva-main {
+    background-color: #167BB1;
+}
+
+.directiva-main .sup-directiva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+    .directiva-main .sup-directiva {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.sup-directiva h2 {
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    .sup-directiva h2 {
+        font-size: 5rem;
+    }
+}
+
+.sup-directiva select {
+    font-family: 'Roboto', sans-serif;
+    -webkit-appearance: none;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    cursor: pointer;
+    border-bottom: 0.5rem solid #fff;
+    border-right: 0.5rem solid #fff;
+    transform: rotate(45deg);
+    position: relative;
+    color: transparent;
+    background: transparent;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .sup-directiva select {
+        margin-left: 2rem;
+        top: -5px;
+    }
+}
+
+select option {
+    color: #000;
+    border-radius: 5rem;
+    background-color: #72727c;
+}
+
+.directiva-content {
+    max-width: 1300px;
+    padding: 0 2rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 500px) {
+    .directiva-content {
+        padding: 0 8rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .directiva-content {
+        padding: 0 2rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .directiva-content {
+        padding: 0 2rem;
+    }
+}
+
+.directiva-content .directiva-card {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    height: 16rem;
+    margin-bottom: 2.8rem;
+}
+
+.directiva-content .directiva-card:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .directiva-content .directiva-card {
+        flex-basis: calc(50% - 5rem);
+    }
+    .directiva-content .directiva-card:nth-child(n + 7) {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .directiva-content .directiva-card:nth-child(-n + 3) {
+        flex-basis: calc(33.3% - 2rem);
+    }
+    .directiva-content .directiva-card:nth-child(4) {
+        margin-left: 19rem;
+        flex-basis: calc(33.3% - 2rem)
+    }
+    .directiva-content .directiva-card:nth-child(5) {
+        margin-right: 19rem;
+        flex-basis: calc(33.3% - 2rem)
+    }
+    .directiva-content .directiva-card:nth-child(n + 6) {
+        flex-basis: calc(33.3% - 2rem);
+        margin-bottom: 0;
+    }
+}
+
+.directiva-card .img-directiva {
+    flex-basis: 45%;
+    position: relative;
+}
+
+.img-directiva::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px #000;
+    transition: 0.5s ease;
+}
+
+.img-directiva:hover::before {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.img-directiva img {
+    width: 100%;
+    height: 100%;
+}
+
+.directiva-card .contenido-directiva {
+    flex-basis: 55%;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    margin-left: 0.8rem;
+    display: flex;
+}
+
+@media (min-width: 500px) {
+    .directiva-card .contenido-directiva {
+        margin-left: 4.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .directiva-card .contenido-directiva {
+        margin-left: 1.5rem;
+    }
+}
+
+.contenido-directiva .contenido-centrado {
+    align-self: center;
+    color: #fff;
+}
+
+.contenido-centrado h3 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.contenido-centrado p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+}
