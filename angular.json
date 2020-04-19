@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ieee-app"
+    }
+  },
+  "defaultProject": "ieee-app",
+  "cli": {
+    "analytics": "8ec0695c-ac94-4d31-92b8-109f48820557"
+  }
 }

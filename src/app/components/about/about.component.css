@@ -2,8 +2,15 @@
 
 .nosotros-ieee {
     background-color: #EFEFEF;
-    padding-top: 75px;
-    min-height: 100vh;
+    padding: 12rem 0 4rem;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+@media (min-width: 1300px) {
+    .nosotros-ieee {
+        min-height: 100vh;
+    }
 }
 
 .nosotros-ieee h2 {
@@ -29,15 +36,9 @@
     }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 850px) {
     .nosotros-ieee .tarjetas-nosotros {
-        padding: 0 5rem;
-    }
-}
-
-@media (min-width: 1300px) {
-    .nosotros-ieee .tarjetas-nosotros {
-        padding: 0 10rem;
+        padding: 0 4rem;
     }
 }
 
@@ -49,7 +50,7 @@
     margin-bottom: 0;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 850px) {
     .tarjetas-nosotros .card-nosotros {
         margin-bottom: 0;
         flex-basis: calc(50% - 4rem);
@@ -63,26 +64,14 @@
 }
 
 .card-nosotros .img-nosotros {
-    padding: 0 1rem 0;
     display: flex;
     align-self: center;
     justify-content: center;
 }
 
-@media (min-width: 650px) {
-    .card-nosotros .img-nosotros {
-        padding: 0 5rem 0;
-    }
-}
-
-@media (min-width: 1024px) {
-    .card-nosotros .img-nosotros {
-        padding: 0 10rem 0;
-    }
-}
-
 .card-nosotros img {
-    width: 100%;
+    width: 250px;
+    height: 250px;
 }
 
 .card-nosotros .contenido-nosotros {

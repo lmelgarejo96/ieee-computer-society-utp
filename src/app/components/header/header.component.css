@@ -27,7 +27,7 @@ header>.header-container>.title-header {
     font-style: normal;
     font-weight: bold;
     text-align: center;
-    font-size: /*65px*/calc(2.6em + 2.6vw);
+    font-size: 4rem;
     /*text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;*/
     padding: 10px;
 }
@@ -36,7 +36,6 @@ header>.header-container>.header-description {
     font-family: 'Roboto', Arial;
     font-style: normal;
     font-weight: normal;
-    font-size: calc(1em + 1vw);
     /*text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;*/
     max-width: 780px;
     text-align: center;

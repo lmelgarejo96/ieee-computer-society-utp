@@ -1,5 +1,14 @@
 .directiva-main {
     background-color: #167BB1;
+    padding: 8rem 0 5rem;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+@media (min-width: 1300px) {
+    .directiva-main {
+        min-height: 100vh;
+    }
 }
 
 .directiva-main .sup-directiva {
@@ -20,7 +29,8 @@
 .sup-directiva h2 {
     color: #fff;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
+    text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -90,8 +100,21 @@ select option {
     display: flex;
     justify-content: center;
     flex-basis: 100%;
-    height: 16rem;
     margin-bottom: 2.8rem;
+    width: 13rem;
+    height: 13rem;
+}
+
+@media (min-width: 500px) {
+    .directiva-content .directiva-card {
+        height: 18rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .directiva-content .directiva-card {
+        height: 13rem;
+    }
 }
 
 .directiva-content .directiva-card:last-child {
@@ -156,13 +179,13 @@ select option {
     height: 100%;
     width: 100%;
     text-align: left;
-    margin-left: 0.8rem;
+    margin-left: 3rem;
     display: flex;
 }
 
 @media (min-width: 500px) {
     .directiva-card .contenido-directiva {
-        margin-left: 4.5rem;
+        margin-left: 6rem;
     }
 }
 

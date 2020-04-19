@@ -1,0 +1,173 @@
+/* Contáctanos */
+.contactos-ieee {
+    background-color: #EFEFEF;
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20rem 0 12rem;
+}
+
+@media (min-width: 1300px) {
+    .directiva-main {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .contactos-ieee .active {
+        color: #EFEFEF;
+        transition: 0.5s ease;
+    }
+}
+
+.contactos-ieee h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .contactos-ieee h2 {
+        font-size: 5rem;
+    }
+}
+
+.contactos-ieee form {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+@media (min-width: 768px) {
+    .contactos-ieee form {
+        padding: 0 15rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .contactos-ieee form {
+        padding: 0 25rem;
+    }
+}
+
+.contactos-ieee form label {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .contactos-ieee label .span-active {
+        color: #ccc;
+        transition: 0.5s ease;
+    }    
+}
+
+.contactos-ieee label span {
+    color: #167BB1;
+    margin-left: 0.1rem;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.contactos-ieee form input:not([type="submit"]) {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #c4c4c4;
+    padding: 1rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s ease;
+}
+
+.contactos-ieee form textarea {
+    font-family: 'Roboto', sans-serif;
+    height: 17rem;
+    outline: none;
+    border: 1px solid #c4c4c4;
+    padding: 1rem;
+    position: relative;
+    z-index: 1;
+    border-radius: 1rem;
+}
+
+.contactos-ieee form input[type="submit"] {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    outline: none;
+    border: none;
+    padding: 1rem 3rem;
+    align-self: flex-start;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 767px) { 
+    .contactos-ieee form input[type="submit"] {
+        color: #EFEFEF;
+        background-color: #167BB1;
+    }
+}
+
+@media (min-width: 768px) {
+    .button-inactived {
+        color: #EFEFEF;
+        background-color: #167BB1;
+    }
+
+    .button-active {
+        color: #167BB1;
+        background-color: #EFEFEF;
+    }
+}
+
+@media (min-width: 768px) {
+    .contactos-ieee .color-fondo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        transition: 0.5s ease;
+        background-color: #167BB1;
+    }
+    
+    .contactos-ieee .color-interno {
+        position: absolute;
+        top: 20%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 70%;
+        padding: 5rem;
+        margin: 0 10rem;
+        border-radius: 10rem;
+        background-color: #EFEFEF;
+        transition: 0.5s ease-in-out;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contactos-ieee .color-interno {
+        margin: 0 10rem;
+    }
+}
