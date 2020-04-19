@@ -1,5 +1,4 @@
 /* Nosotros */
-
 .nosotros-ieee {
     background-color: #EFEFEF;
     padding: 12rem 0 4rem;
@@ -9,13 +8,14 @@
 
 @media (min-width: 1300px) {
     .nosotros-ieee {
+        padding: 12rem 0 8rem;
         min-height: 100vh;
     }
 }
 
 .nosotros-ieee h2 {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 4.5rem;
+    font-size: 4rem;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3rem;
@@ -70,8 +70,8 @@
 }
 
 .card-nosotros img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 .card-nosotros .contenido-nosotros {

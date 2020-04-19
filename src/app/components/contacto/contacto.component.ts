@@ -18,10 +18,9 @@ export class ContactoComponent implements OnInit {
         const spanBlue = document.querySelectorAll('.span-form');
         const buttonBlue = document.querySelector('.btn-submit');
         const focus_input = document.querySelectorAll('.input-activo');
-        const contacto = document.querySelector('.efecto-fondo');
         const color_fondo = document.getElementById('color-fondo');
         const color_interno = document.getElementById('color-interno');
-
+        const cuerpo = document.querySelector('body')
         buttonBlue.classList.add('button-inactived');
 
         for(let i = 0; i < focus_input.length; i++) {
@@ -44,8 +43,8 @@ export class ContactoComponent implements OnInit {
         }
 
         for(let i = 0; i < focus_input.length; i++) {
-            contacto.addEventListener('click', () => {
-                if (focus_input[i].addEventListener('click', {pasive: true})) {
+            cuerpo.addEventListener('click', () => {
+                if (focus_input[i].getAttribute('checked')) {
                     for(let i = 0; i < contactoBlack.length; i++) {
                         contactoBlack[i].classList.add('active');
                     }
