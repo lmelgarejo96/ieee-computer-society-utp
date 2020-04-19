@@ -1,14 +1,13 @@
 /* Nosotros */
 .nosotros-ieee {
     background-color: #EFEFEF;
-    padding: 12rem 0 4rem;
+    padding: 10rem 0 4rem;
     margin: 0 auto;
     min-width: 320px;
 }
 
 @media (min-width: 1300px) {
     .nosotros-ieee {
-        padding: 12rem 0 8rem;
         min-height: 100vh;
     }
 }
@@ -19,6 +18,18 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .nosotros-ieee h2 {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 850px) {
+    .nosotros-ieee h2 {
+        margin-bottom: 5rem;
+    }
 }
 
 .nosotros-ieee .tarjetas-nosotros {
@@ -72,6 +83,13 @@
 .card-nosotros img {
     width: 200px;
     height: 200px;
+}
+
+@media (min-width: 768px) {
+    .card-nosotros img {
+        width: 240px;
+        height: 240px;
+    }
 }
 
 .card-nosotros .contenido-nosotros {
