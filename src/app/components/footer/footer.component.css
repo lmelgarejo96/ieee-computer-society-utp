@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    height: 50px;
+    background: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 20px 20px 0 0; */
+}
+
+footer small {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}

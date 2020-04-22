@@ -6,7 +6,7 @@
         display: flex;
         justify-content: center;
         transition: ease-in-out .5s;
-        z-index: 20;
+        z-index: 30;
     }
     
     .navbar-container>img {

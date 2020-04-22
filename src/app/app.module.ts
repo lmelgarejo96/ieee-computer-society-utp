@@ -8,7 +8,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { DirectivaComponent } from './components/directiva/directiva.component';
 import { EventosComponent } from './components/eventos/eventos.component';
-import { ContactoComponent } from './components/contacto/contacto.component'
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { TalleresComponent } from './components/talleres/talleres.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ContactoComponent } from './components/contacto/contacto.component'
     AboutComponent,
     DirectivaComponent,
     EventosComponent,
-    ContactoComponent
+    ContactoComponent,
+    TalleresComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

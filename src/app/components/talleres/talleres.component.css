@@ -1,0 +1,249 @@
+.container-talleres {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    background-color: #167BB1;
+}
+
+.title-talleres {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.title-talleres .title,
+.title-talleres select {
+    color: #fff;
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.title-talleres select {
+    background: #167BB1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrapper-slide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 3.5em 0;
+}
+
+.slide-talleres {
+    padding: 1.5em 8em;
+    width: 80%;
+    overflow: hidden;
+    margin-left: 0;
+    padding-left: 0;
+    max-height: 540px;
+    ;
+}
+
+.wrapper-slide.active {
+    /* background: rgba(255, 255, 255, .3);
+    transform: scale(1); */
+    cursor: grabbing;
+}
+
+.slide-talleres .container-slider {
+    position: relative;
+    white-space: nowrap;
+}
+
+.slide-talleres .container-slider * {
+    white-space: normal;
+}
+
+.slide-talleres .card-taller {
+    background: #fefefe;
+    max-width: 284px;
+    margin: .5em 1em;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    transition: all ease-in-out .4s;
+    height: 100%;
+}
+
+.slide-talleres .card-taller::before,
+.slide-talleres .card-taller::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transform: scale(0);
+    transition: 0.5s
+}
+
+.slide-talleres .card-taller::before {
+    border-bottom: 2px solid #BA0F22;
+    border-left: 2px solid #BA0F22;
+    transform-origin: 0 100%
+}
+
+.slide-talleres .card-taller::after {
+    border-top: 2px solid #BA0F22;
+    border-right: 2px solid #BA0F22;
+    transform-origin: 100% 0%
+}
+
+.slide-talleres .card-taller:hover {
+    box-shadow: 1px 1px 0px rgba(0, 0, 0), 2px 2px 0px rgba(0, 0, 0, .575), 3px 3px 0px rgba(0, 0, 0, .575), 4px 4px 0px rgb(0, 0, 0, .575), 5px 5px 0px rgba(0, 0, 0, .575);
+    transform: scale(1.02);
+}
+
+.card-taller .header-card-taller {
+    width: 100%;
+}
+
+.card-taller .header-card-taller img {
+    width: 100%;
+    height: 155px;
+}
+
+.card-taller .content-card-taller {
+    height: 300px;
+}
+
+.card-taller .content-card-taller .description-taller {
+    height: 300px;
+    padding: 8px 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card-taller .content-card-taller .description-taller .title-taller {
+    width: 100%;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    height: 55px;
+}
+
+.card-taller .content-card-taller .description-taller {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.control-left,
+.control-right {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+    background: #167BB1;
+    z-index: 20;
+}
+
+.control-left {
+    top: 0;
+    left: 0;
+}
+
+.control-right {
+    top: 0;
+    right: 0;
+}
+
+.control-left button,
+.control-right button {
+    background: #fff;
+    width: 4.5em;
+    height: 4.5em;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #167BB1;
+}
+
+.control-left button span,
+.control-right button span {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1300px) {
+    .slide-talleres .card-taller {
+        max-width: 315px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper-slide {
+        margin: 20px 0;
+    }
+    .card-taller .content-card-taller .title-taller {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .control-left {
+        left: 5px;
+    }
+    .control-right {
+        right: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title-talleres .title {
+        font-size: 28px;
+    }
+    .slide-talleres .card-taller {
+        max-width: 400px;
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slide-talleres .card-taller {
+        max-width: 900px;
+        width: 300px;
+    }
+    .control-left,
+    .control-right {
+        width: 15%;
+        background: none;
+        z-index: -10;
+    }
+    .slide-talleres {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .slide-talleres {
+        width: 95%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .slide-talleres .card-taller {
+        width: 280px;
+    }
+}

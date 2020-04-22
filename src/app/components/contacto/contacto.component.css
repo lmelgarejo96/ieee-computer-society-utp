@@ -1,10 +1,12 @@
 /* Contáctanos */
+
 .contactos-ieee {
     background-color: #EFEFEF;
     min-width: 320px;
     margin: 0 auto;
     position: relative;
-    padding: 13rem 0 10rem;
+    padding: 13rem 0 8rem;
+    min-height: 100vh;
 }
 
 @media (min-width: 1300px) {
@@ -70,7 +72,7 @@
     .contactos-ieee label .span-active {
         color: #ccc;
         transition: 0.5s ease;
-    }    
+    }
 }
 
 .contactos-ieee label span {
@@ -120,7 +122,7 @@
     z-index: 1;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     .contactos-ieee form input[type="submit"] {
         color: #EFEFEF;
         background-color: #167BB1;
@@ -132,7 +134,6 @@
         color: #EFEFEF;
         background-color: #167BB1;
     }
-
     .button-active {
         color: #167BB1;
         background-color: #EFEFEF;
@@ -151,7 +152,6 @@
         transition: 0.5s ease;
         background-color: #167BB1;
     }
-    
     .contactos-ieee .color-interno {
         position: absolute;
         top: 15%;
