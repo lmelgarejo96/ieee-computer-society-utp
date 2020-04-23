@@ -27,7 +27,7 @@ header>.header-container>.title-header {
     font-style: normal;
     font-weight: bold;
     text-align: center;
-    font-size: 4rem;
+    font-size: calc(3em + 1.5vw);
     /*text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;*/
     padding: 10px;
 }
@@ -36,6 +36,7 @@ header>.header-container>.header-description {
     font-family: 'Roboto', Arial;
     font-style: normal;
     font-weight: normal;
+    font-size: calc(1.25em + 0.8vw);
     /*text-shadow: -2px 2px 0 #000, -2px 2px 0 #0a0e27;*/
     max-width: 780px;
     text-align: center;
@@ -46,10 +47,10 @@ header>.header-container>button {
     background: #000;
     border: none;
     color: #fff;
-    font-size: calc(0.7em + 0.7vw);;
+    font-size: calc(1em + 0.6vw);
     font-family: 'Barlow';
     font-weight: bold;/*el border es mucho y no se escala si le pongo numero*/
-    padding: 12px 80px;
+    padding: 12px calc(5rem + 2vw);
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
