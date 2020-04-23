@@ -1,5 +1,5 @@
 .directiva-main {
-    background-color: #167BB1;
+    background-color: #00629b;
     padding: 8rem 0 5rem;
     margin: 0 auto;
     min-width: 320px;
@@ -153,6 +153,12 @@ select option {
     position: relative;
 }
 
+.img-directiva{
+    max-width: 140px;
+    max-height: 140px;
+    border-radius: 5px;
+}
+
 .img-directiva::before {
     content: '';
     position: absolute;
@@ -161,8 +167,9 @@ select option {
     bottom: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 15px #000;
+    /*box-shadow: 0 0 15px #000;*/
     transition: 0.5s ease;
+    border-radius: 5px;
 }
 
 .img-directiva:hover::before {
@@ -172,6 +179,7 @@ select option {
 .img-directiva img {
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 }
 
 .directiva-card .contenido-directiva {
