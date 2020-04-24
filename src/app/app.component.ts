@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {Title} from '@angular/platform-browser';
-import {SeoService} from 'src/app/seo.service';
 
 @Component({
   selector: 'app-root',
@@ -9,18 +7,8 @@ import {SeoService} from 'src/app/seo.service';
 })
 export class AppComponent implements OnInit {
   
-  constructor(private title:Title, private seo:SeoService){}
+  constructor(){}
 
   ngOnInit(){
-    let t:string="IEEE Computer Society UTP";
-    this.title.setTitle(t);
-
-    this.seo.generateTags({
-      title:"IEEE Computer Society UTP",
-      description:"Somos una organizión dedicada a difundir conocimiento entre sus miembros",
-      slug:""
-    })
-
   }
-
 }

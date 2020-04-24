@@ -59,7 +59,6 @@
 
 .slide-talleres .container-slider * {
     white-space: normal;
-    border-radius: 5px;
 }
 
 .slide-talleres .card-taller {
@@ -104,6 +103,10 @@
     transform: scale(1.02);
 }
 
+.card-taller{
+    border-radius: 5px;
+}
+
 .card-taller .header-card-taller {
     width: 100%;
 }
@@ -111,6 +114,8 @@
 .card-taller .header-card-taller img {
     width: 100%;
     height: 155px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .card-taller .content-card-taller {
