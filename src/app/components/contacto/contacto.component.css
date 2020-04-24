@@ -6,7 +6,7 @@
     margin: 0 auto;
     position: relative;
     padding: 13rem 0 8rem;
-    min-height: 100vh;
+    height: 100%;
 }
 
 @media (min-width: 1300px) {
@@ -109,10 +109,12 @@
 .contactos-ieee form input[type="submit"] {
     font-family: 'Barlow', sans-serif;
     font-weight: 800;
-    border-radius: 0.4rem;
+    border-radius: 5px;
     font-size: 1.8rem;
+    background-color: #167BB1;
     outline: none;
     border: none;
+    color:#fff;
     padding: 1rem 3rem;
     align-self: flex-start;
     text-transform: uppercase;

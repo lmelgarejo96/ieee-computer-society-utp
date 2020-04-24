@@ -1,5 +1,5 @@
 header.bg-header {
-    background-image: linear-gradient(rgba(0, 98, 155, 0.6), rgba(0, 98, 155, 0.6)), url(../../../assets/img/bg2.jpeg);
+    background-image: linear-gradient(rgba(22,123,177, 0.6), rgba(22,123,177, 0.6)), url(../../../assets/img/bg2.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ header>.header-container>button {
     font-size: calc(1em + 0.6vw);
     font-family: 'Barlow';
     font-weight: bold;/*el border es mucho y no se escala si le pongo numero*/
-    padding: 12px calc(5rem + 2vw);
+    padding: calc(0.6em + 0.1vw) calc(3.5em + 0.75vw);
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;

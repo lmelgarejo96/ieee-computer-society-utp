@@ -10,7 +10,7 @@ export class ContactoComponent implements OnInit {
     }
 
     ngOnInit(){
-        this.contact();
+        //this.contact();
     }
 
     contact() {

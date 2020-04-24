@@ -93,7 +93,7 @@
     
     .navbar-container>nav>ul>li.link-active::before,
     .navbar-container>nav>ul>li.link-active::after {
-        background: #00629b;
+        background: #167bb1;
         width: 100%;
         left: 0;
     }
